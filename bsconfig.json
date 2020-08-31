@@ -1,10 +1,6 @@
 {
   "name": "bs-react-pdf",
-  "package-specs": [
-    "amdjs",
-    "es6",
-    "commonjs"
-  ],
+  "package-specs": ["commonjs"],
   "sources": [
     {
       "dir": "src",
@@ -21,15 +17,10 @@
       "dir": "examples"
     }
   ],
-  "bs-dependencies": [
-    "reason-react"
-  ],
-  "bsc-flags": [
-    "-bs-no-version-header",
-    "-bs-super-errors"
-  ],
+  "bs-dependencies": ["reason-react"],
+  "bsc-flags": ["-bs-no-version-header", "-bs-super-errors"],
   "reason": {
-    "react-jsx": 2
+    "react-jsx": 3
   },
   "refmt": 3
 }
